@@ -19,7 +19,7 @@ function container() {
       <div class="main__aside__upperblock"></div>
       <div class="main__aside__container">
         <div class="main__aside__icon">
-          <img src="./heart.jpg" alt="heart" class="main__aside__ui-icon"/>
+          <img src="./images/heart.jpg" alt="heart" class="main__aside__ui-icon"/>
         </div>
         <div class="main__aside__condition">
             <span class="main__aside__condition__header">Lorem ipsum</span>
@@ -56,12 +56,12 @@ function secondScreen() {
       <div class="main1__aside__upperblock"></div>
       <div class="main1__aside__container">
         <div class="main1__aside__icon">
-          <img src="./heart-orange.jpg" alt="heart" class="main1__aside__ui-icon"/>
+          <img src="./images/heart-orange.jpg" alt="heart" class="main1__aside__ui-icon"/>
         </div>
         <div class="main1__aside__condition">
           <p class="main1__aside__condition__header">
-            Lorem ipsum dolor sit amet, 
-            consectetur adipiscing elit. 
+            Lorem ipsum dolor sit amet,
+            consectetur adipiscing elit.
             Integer a urna sit amet
           </p>
         </div>
@@ -153,30 +153,30 @@ function thirdScreen() {
       <div class="main2__aside__upperblock"></div>
       <div class="main2__aside__container">
         <div class="main2__aside__icon">
-          <img src="./heart-yellow.jpg" alt="heart" class="main2__aside__ui-icon"/>
+          <img src="./images/heart-yellow.jpg" alt="heart" class="main2__aside__ui-icon"/>
         </div>
         <div class="main2__aside__condition">
           <p class="main2__aside__condition__header">Укажите свой пол:</p>
         </div>
         <div class="main2__aside__performance">
-          <button 
-            class="ui-button ui-widget ui-corner-all button1" 
-            id="main2__aside__performance__button" 
+          <button
+            class="ui-button ui-widget ui-corner-all button1"
+            id="main2__aside__performance__button"
             onclick="selectMan()"
           >
-            <img src="./black-man.jpg" alt="man" class="main2__aside__performance__button_person black-man"/>
-            <img src="./white-man.png" alt="man" class="main2__aside__performance__button_person white-man" style="display: none;"/>
+            <img src="./images/black-man.jpg" alt="man" class="main2__aside__performance__button_person black-man"/>
+            <img src="./images/white-man.png" alt="man" class="main2__aside__performance__button_person white-man" style="display: none;"/>
             Вариант А
           </button>
-          <button 
-            class="ui-button ui-widget ui-corner-all button2" 
-            id="main2__aside__performance__button" 
+          <button
+            class="ui-button ui-widget ui-corner-all button2"
+            id="main2__aside__performance__button"
             onclick="selectWoman()"
           >
-            <img src="./black-woman.jpg" alt="woman" class="main2__aside__performance__button_person black-woman"/>
-            <img src="./white-woman.png" alt="woman" class="main2__aside__performance__button_person white-woman" style="display: none;"/>
+            <img src="./images/black-woman.jpg" alt="woman" class="main2__aside__performance__button_person black-woman"/>
+            <img src="./images/white-woman.png" alt="woman" class="main2__aside__performance__button_person white-woman" style="display: none;"/>
             Вариант Б
-          </button>          
+          </button>
           <div class="main2__aside__performance__button_bubling"></div>
         </div>
       </div>
@@ -249,7 +249,7 @@ function fourthScreen() {
       <div class="main3__aside__upperblock"></div>
       <div class="main3__aside__container">
         <div class="main3__aside__icon">
-          <img src="./heart-blue.jpg" alt="heart" class="main3__aside__ui-icon"/>
+          <img src="./images/heart-blue.jpg" alt="heart" class="main3__aside__ui-icon"/>
         </div>
         <div class="main3__aside__condition">
           <p class="main3__aside__condition__header">Lorem ipsum dolor sit amet,  consectetur adipiscing elit,  sed </p>
@@ -261,51 +261,51 @@ function fourthScreen() {
             <div class="main3__aside__performance__buttons">
               <button type="button"
                 class="ui-button ui-widget ui-corner-all button1"
-                id="main3__aside__performance__button" 
+                id="main3__aside__performance__button"
                 onclick="selectPerson1()"
                 onfocus="removeError()"
-                style="color: #ffffff; background-color: rgb(29, 167, 192);" 
+                style="color: #ffffff; background-color: rgb(29, 167, 192);"
               >
-                <img src="./black-man.jpg" alt="man" class="main3__aside__performance__button_person black-man" style="display: none;"/>
-                <img src="./white-man.png" alt="man" class="main3__aside__performance__button_person white-man"/>
-                Вариант 1                  
+                <img src="./images/black-man.jpg" alt="man" class="main3__aside__performance__button_person black-man" style="display: none;"/>
+                <img src="./images/white-man.png" alt="man" class="main3__aside__performance__button_person white-man"/>
+                Вариант 1
               </button>
-             
+
               <button type="button"
-                class="ui-button ui-widget ui-corner-all button2" 
-                id="main3__aside__performance__button" 
+                class="ui-button ui-widget ui-corner-all button2"
+                id="main3__aside__performance__button"
                 onclick="selectPerson2()"
                 value="Вариант 2"
                 onfocus="removeError()"
               >
-                <img src="./black-woman.jpg" alt="woman" class="main3__aside__performance__button_person black-woman"/>
-                <img src="./white-woman.png" alt="woman" class="main3__aside__performance__button_person white-woman" style="display: none;"/>    
+                <img src="./images/black-woman.jpg" alt="woman" class="main3__aside__performance__button_person black-woman"/>
+                <img src="./images/white-woman.png" alt="woman" class="main3__aside__performance__button_person white-woman" style="display: none;"/>
                 Вариант 2
               </button>
 
-            </div>  
+            </div>
 
-            <p class="main3__aside__performance__text">Ваше имя:</p> 
-            <input type="text" value="" name="name" class="main3__aside__performance__input input1" onfocus="removeError()" onchange="showButton()"/> 
+            <p class="main3__aside__performance__text">Ваше имя:</p>
+            <input type="text" value="" name="name" class="main3__aside__performance__input input1" onfocus="removeError()" onchange="showButton()"/>
 
-            <p class="main3__aside__performance__text">Email:</p> 
-            <input type="email" value="" name="email" class="main3__aside__performance__input input2" onfocus="removeError()" onchange="showButton()"/> 
+            <p class="main3__aside__performance__text">Email:</p>
+            <input type="email" value="" name="email" class="main3__aside__performance__input input2" onfocus="removeError()" onchange="showButton()"/>
 
-            <p class="main3__aside__performance__text">Придумайте пароль:</p> 
-            <input type="password" value="" name="password" class="main3__aside__performance__input input3" onfocus="removeError()" onchange="showButton()"/> 
+            <p class="main3__aside__performance__text">Придумайте пароль:</p>
+            <input type="password" value="" name="password" class="main3__aside__performance__input input3" onfocus="removeError()" onchange="showButton()"/>
 
             <div class="main3__aside__performance__checkbox">
               <p class="main3__aside__performance__text main3__aside__performance__checkbox__text text">
                 Регистрируясь, вы подтверждаете,
-                что вам уже исполнилось  18 лет и вы ознакомились с условиями пользования сайтом</p> 
-              <input type="checkbox" value="" name="password" class="checkbox" onfocus="removeError()" onchange="showButton()"/> 
+                что вам уже исполнилось  18 лет и вы ознакомились с условиями пользования сайтом</p>
+              <input type="checkbox" value="" name="password" class="checkbox" onfocus="removeError()" onchange="showButton()"/>
             </div>
 
             <div class="main3__aside__performance__button_bubling">
               <button type="button" class="main3__aside__performance__button" onclick="validation()">продолжить</button>
             </div>
           </form>
-          
+
         </div>
       </div>
     </aside>
@@ -361,7 +361,7 @@ function removeError() {
     input3.value
   }
   text.removeAttribute("style")
-} 
+}
 
 function validation() {
   const buttonMale = document.querySelector(".button1")
@@ -377,26 +377,26 @@ function validation() {
   if (!name.test(String(input1.value).toLowerCase())) {
     input1.classList.toggle("error")
     input1.value = 'Введите свое имя'
-  } 
+  }
 
   let email = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
   if (!email.test(String(input2.value).toLowerCase())) {
     input2.classList.toggle("error")
     input2.value = 'Неверный формат email'
-  } 
+  }
 
   let pass = /^[a-z0-9]{6,15}$/
 
   if (!pass.test(String(input3.value).toLowerCase())) {
     input3.classList.toggle("error")
     input3.type = "text"
-    input3.value = 'Придумайте новый пароль'    
-  } 
+    input3.value = 'Придумайте новый пароль'
+  }
 
   if (!checkbox.checked) {
     text.style = "color: rgb(255, 0, 0);"
-  } 
+  }
 }
 
 function showButton() {
@@ -410,7 +410,7 @@ function showButton() {
   let pass = /^[a-z0-9]{6,15}$/
 
 
-  if (input1.value !== "Введите свое имя" && name.test(String(input1.value).toLowerCase()) 
+  if (input1.value !== "Введите свое имя" && name.test(String(input1.value).toLowerCase())
     && input2.value !== "Неверный формат email" && email.test(String(input2.value).toLowerCase())
     && input3.value !== "Придумайте новый пароль" && pass.test(String(input3.value).toLowerCase())
     && checkbox.checked
@@ -419,4 +419,4 @@ function showButton() {
   } else {
     button.classList.remove("active-button")
   }
-} 
+}
