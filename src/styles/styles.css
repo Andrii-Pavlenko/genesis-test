@@ -15,7 +15,7 @@ input {
 
 .main {
   display: flex;
-  background-image: url(../background-girl.jpg);
+  background-image: url(../images/background-girl.jpg);
   background-size: contain;
   height: 100vh;
   display: flex;
