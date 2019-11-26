@@ -285,20 +285,25 @@ function fourthScreen() {
 
             </div>
 
-            <p class="main3__aside__performance__text">Ваше имя:</p>
-            <input type="text" value="" name="name" class="main3__aside__performance__input input1" onfocus="removeError()" onchange="showButton()"/>
+            <label class="main3__aside__performance__text">Ваше имя:
+              <input type="text" value="" name="name" class="main3__aside__performance__input input1" onfocus="removeError()" onchange="showButton()"/>
+            </label>
 
-            <p class="main3__aside__performance__text">Email:</p>
-            <input type="email" value="" name="email" class="main3__aside__performance__input input2" onfocus="removeError()" onchange="showButton()"/>
+            <label class="main3__aside__performance__text">Email:
+              <input type="email" value="" name="email" class="main3__aside__performance__input input2" onfocus="removeError()" onchange="showButton()"/>
+            </label>
 
-            <p class="main3__aside__performance__text">Придумайте пароль:</p>
-            <input type="password" value="" name="password" class="main3__aside__performance__input input3" onfocus="removeError()" onchange="showButton()"/>
+            <label class="main3__aside__performance__text">Придумайте пароль:
+              <input type="password" value="" name="password" class="main3__aside__performance__input input3" onfocus="removeError()" onchange="showButton()"/>
+            </label>
 
             <div class="main3__aside__performance__checkbox">
-              <p class="main3__aside__performance__text main3__aside__performance__checkbox__text text">
+              <label class="main3__aside__performance__text main3__aside__performance__checkbox__text text">
+                <input type="checkbox" value="" name="password" class="checkbox" onfocus="removeError()" onchange="showButton()"/>
+
                 Регистрируясь, вы подтверждаете,
-                что вам уже исполнилось  18 лет и вы ознакомились с условиями пользования сайтом</p>
-              <input type="checkbox" value="" name="password" class="checkbox" onfocus="removeError()" onchange="showButton()"/>
+                что вам уже исполнилось  18 лет и вы ознакомились с условиями пользования сайтом
+              </label>
             </div>
 
             <div class="main3__aside__performance__button_bubling">
